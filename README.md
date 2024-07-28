@@ -30,7 +30,7 @@
  ```
  undefined
  ```
-see final product on https://github.com/anthonyjj/Note-Taker
+see final product on (https://note-taker-izbs.onrender.com/notes)
  
 * [License] (#license)
 
