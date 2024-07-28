@@ -30,6 +30,7 @@
  ```
  undefined
  ```
+see final product on https://github.com/anthonyjj/Note-Taker
  
 * [License] (#license)
 
