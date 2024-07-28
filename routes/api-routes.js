@@ -25,6 +25,8 @@ router.delete('api/notes/:id', (req, res) => {
     const newNotes= dataJson.filter((notte) => {
         return notEqual.id !== req.params.id;
     });
+    fs.writeFileSync("db/db.json",JSON.stringify(newNotes));
+    res.json("Note deleted.");
 });
 
 module.exports = router;
