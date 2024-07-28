@@ -8,7 +8,7 @@ app.use(express.urlencoded({ extended: false}));
 app.use(express.json());
 app.use(express.static("public"));
 app.use(html_routes)
-app.use(ape_routes)
+app.use(app_routes)
 
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
